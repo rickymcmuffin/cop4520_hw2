@@ -1,6 +1,4 @@
 # cop4520_hw2
-hw2
-
 
 ## Problem 1: Minotaur’s Birthday Party
 The solution I have come up with for this problem is for the guests to choose a leader. This leader is the only one who is allowed to request a cupcake. When any guests enters the labrynth, if they have not eaten a cupcake and a cupcake is available, they must eat the cupcake. Each time the leader enters the labrynth they must take note of whether or not the cupcake is there. If it is not there, that means a new person ate it and the leader requests a new one. If the cupcake is there that means no one new entered and must leave it there. Each time a cupcake is not there, the leader must add one to their counter. Once the counter is the same as the number of guests, the leader will then let the minatour know that all guests have entered the labrynth.  
