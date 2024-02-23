@@ -1,12 +1,14 @@
+// this data structure simulates the cupcake
 pub struct Cupcake {
     is_out: bool,
     num_made: usize,
 }
 
+// methods for  cupcake
 impl Cupcake {
     pub fn new() -> Cupcake {
         return Cupcake {
-            is_out: false,
+            is_out: true,
             num_made: 0,
         };
     }
