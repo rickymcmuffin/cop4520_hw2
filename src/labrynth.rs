@@ -95,7 +95,7 @@ pub fn labrynth_game() {
         handle.join().unwrap();
     }
 
-    println!("All guests invited ot labrynth! :)")
+    println!("All guests invited to labrynth! :)\n")
 }
 
 fn guest_run(
